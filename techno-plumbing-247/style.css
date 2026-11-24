@@ -83,6 +83,7 @@ section{padding:clamp(64px,9vw,112px) 0}
 .hero-bg{position:absolute;inset:0;background-size:cover;background-position:70% center;transform:scale(1.08);animation:slowzoom 18s ease-out forwards}
 .hero::after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(13,21,29,.96) 0%,rgba(13,21,29,.86) 42%,rgba(13,21,29,.35) 100%)}
 .hero .wrap{position:relative;z-index:1}
+@media (max-width:860px){.hero::after{background:linear-gradient(180deg,rgba(13,21,29,.88),rgba(13,21,29,.8))}.hero{padding:70px 0 70px}}
 .hero-copy{max-width:640px}
 .badge-247{display:inline-flex;align-items:center;gap:10px;background:rgba(246,168,33,.14);border:1px solid rgba(246,168,33,.45);color:#ffd27a;font-weight:600;font-size:.88rem;padding:8px 14px;border-radius:999px}
 .pulse{width:9px;height:9px;border-radius:50%;background:var(--amber);box-shadow:0 0 0 0 rgba(246,168,33,.7);animation:pulse 1.8s infinite}
