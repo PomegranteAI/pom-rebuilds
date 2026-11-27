@@ -256,5 +256,5 @@ section{padding:clamp(64px,9vw,112px) 0}
 /* icon panel for services without a photo */
 .svc-img.icon{display:grid;place-items:center;background:var(--ink-3);color:var(--amber)}
 .svc-img.icon svg{width:72px;height:72px}
-.split-img.icon{display:grid;place-items:center;background:var(--ink-3);color:var(--amber);min-height:320px;border-radius:18px}
+.split-img.icon{display:grid;place-items:center;background:var(--ink-3);color:var(--amber);border-radius:18px}
 .split-img.icon svg{width:96px;height:96px}
